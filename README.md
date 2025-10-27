@@ -1,2 +1,4 @@
-# php-zerotrust-common
-Common library for Client/Proxy/Connector
+# Zero Trust Common Library
+
+This project is part of the PHP Zero Trust project collection. This is the Common library for all components
+

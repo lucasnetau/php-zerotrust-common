@@ -1,0 +1,27 @@
+{
+    "name": "edgetelemetrics/php-zerotrust-common",
+    "description": "ZeroTrust Common Library",
+    "keywords": ["zerotrust", "device", "edge", "iot", "tunnel"],
+    "license": "MIT",
+    "authors": [ { "name": "James Lucas", "email": "james@lucas.net.au" } ],
+    "type": "library",
+    "repositories": [
+        {
+            "url": "https://github.com/josh-gaby/Ratchet.git",
+            "type": "git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EdgeTelemetrics\\ZeroTrust\\Common\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.4",
+        "ext-openssl": "*",
+        "ext-curl": "*"
+    }
+}
